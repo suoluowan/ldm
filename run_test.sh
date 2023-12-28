@@ -1,0 +1,3 @@
+# python3 main.py --base configs/latent-diffusion/ultraposeMixdococo-ldm-kl-28x28x3-cond-image-cfg.yaml -t --gpus 0, --logdir logs/ultraposeMixdpcocoSingleMaskExr255_112 --scale_lr False
+
+python3 main.py --base configs/latent-diffusion/dpcocosingle-ldm-kl-28x28x3-cond-image-cfg.yaml -t --gpus 0,1,2,3 --logdir logs/dpcocoSingleMask255_112 --scale_lr False --resume /share/home/liuqiong/sunjunyao/latent-diffusion/logs/dpcocoSingleMask255_112/2023-12-05T23-12-08_dpcocosingle-ldm-kl-28x28x3-cond-image-cfg/checkpoints/last.ckpt

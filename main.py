@@ -20,6 +20,8 @@ from pytorch_lightning.utilities import rank_zero_info
 from ldm.data.base import Txt2ImgIterableBaseDataset
 from ldm.util import instantiate_from_config
 
+os.environ["OPENCV_IO_ENABLE_OPENEXR"]="1"
+
 
 def get_parser(**parser_kwargs):
     def str2bool(v):

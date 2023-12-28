@@ -1,0 +1,22 @@
+
+*.png
+*.json
+*.diff
+*.jpg
+
+*.slurm
+*.out
+logs/
+
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+*.ts
+model_ts*.txt
+
+# editor settings
+.idea
+.vscode
+_darcs
